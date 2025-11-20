@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #f4f4f4, #ffffff);
+    color: #333;
+}
+
+header {
+    background-color: #1F3B73;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-container {
+    text-align: center;
+    margin: 30px 0;
+}

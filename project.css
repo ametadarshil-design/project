@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    border: 0;
+}
+body{
+   
+ background-image: linear-gradient(rgb(24, 24, 24), rgb(255, 255, 255),rgb(12, 12, 12)) ;
+
+
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(243, 240, 240);
+}
+header{
+    background-color: #7F2A46;
+    text-align: center;
+}
+FOOTER{
+    background-color: #7F2A46;
+}
+
+img{
+    padding: 0px;
+    margin: 50px;
+    border: 0px;
+    transition: 0.3s;
+   
+}
+img:hover{
+     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+     width: 220px;
+    height: 165px;     
+ 
+}
+#region{
+    text-align: center;
+}

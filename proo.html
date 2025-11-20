@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India Virtual Tour Portal</title>
+    <link rel="stylesheet" href="proo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Incredible India Virtual Tour Portal</h1>
+    </header>
+
+    <div class="dropdown-container">
+        <label for="region"><b>Select The Region:</b></label>
+        <select name="region" id="region" onchange="openPage()">
+            <option value=""> Select </option>
+            <option value="rajasthan.html">Rajasthan</option>
+            <option value="maharashtra.html">Maharashtra</option>
+            <option value="goa.html">Goa</option>
+            <option value="newdelhi.html">New Delhi</option>
+            <option value="punjab.html">Punjab</option>
+            <option value="gujarat.html">Gujarat</option>
+            <option value="kerala.html">Kerala</option>
+            <option value="up.html">Uttar Pradesh</option>
+        </select>
+    </div>
+
+    <div id="main-div" class="image-grid">
+        <img src="https://www.andbeyond.com/wp-content/uploads/sites/5/rajasthan-camels-desert-india.gif" alt="Rajasthan">
+        <img src="https://s7ap1.scene7.com/is/image/incredibleindia/1-gateway-of-india-state-hero?qlt=82&ts=1726670249199" alt="Maharashtra">
+        <img src="https://www.agoda.com/wp-content/uploads/2024/07/Goa-India.jpg" alt="Goa">
+        <img src="https://images.pexels.com/photos/14094276/pexels-photo-14094276.jpeg" alt="Delhi">
+        <img src="https://images.pexels.com/photos/10456959/pexels-photo-10456959.jpeg" alt="Punjab">
+        <img src="https://www.gujarattourism.com/content/dam/gujrattourism/images/home_page/SOU.jpg" alt="Gujarat">
+        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=jpg&q=60&w=3000" alt="Kerala">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb15SJAbrFOGDAsnJcuoOIpueRbifxg5Li5g&s" alt="Uttar Pradesh">
+    </div>
+
+    <footer>
+        <h3>FEEDBACK</h3>
+        <form>
+            <input type="text" placeholder="Enter Your Name" class="feedback-input"><br>
+            <input type="text" placeholder="Enter Your Feedback" class="feedback-input"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+</html>
